@@ -28,3 +28,4 @@ connection_properties = {
 
 # Read a table from a JDBC connection
 df = spark.read.jdbc(url=jdbc_url, table="my_table", properties=connection_properties)
+
